@@ -3,6 +3,10 @@ $fontOne: 'Montserrat', sans-serif;
 $fontTwo: 'Roboto Slab', serif;;
 $fontThree: 'Merriweather', serif;
 
+$colorOne: #222222;
+$colorTwo: #777777;
+$colorThree: #fed136;
+$colorLight: #fff;
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -11,12 +15,54 @@ $fontThree: 'Merriweather', serif;
 
 body{
     line-height: 1.7;
-    font-family: $fontText;
+    font-family: $fontTwo;
     font-size: 16px;
     font-weight: 400;
-    color: $colorDark;
+    color: $colorTwo;
+    text-align: center;
 }
 
 section{
     padding: 96px 0;
+}
+
+.font{
+    &-light{
+        color: $colorLight;
+    }
+
+    &-italic{
+        font-style: italic;
+    }
+
+    &-nav{
+        font-family: $fontOne;
+        text-transform: uppercase;
+    }
+
+    &-header{
+        &__title{
+            font-family: $fontThree;
+            font-size: 40px;    
+        }
+        &__subtitle{
+            font-family: $fontOne;
+            font-size: 75px;
+            font-weight: 700;
+        }
+    }
+
+    &-title{
+        font-family: $fontOne;
+        font-weight: 700;
+        color: $colorOne;
+        font-size: 40px;
+    }
+
+    &-subtitle{
+        font-family: $fontOne;
+        font-weight: 700;
+        color: $colorOne;
+        font-size: 18px;
+    }
 }

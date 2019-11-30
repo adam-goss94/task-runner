@@ -1,0 +1,57 @@
+/* Variables */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  text-align: center;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.font-light {
+  color: #fff;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-nav {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-header__title {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+}
+
+.font-header__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.font-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  font-size: 40px;
+}
+
+.font-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
