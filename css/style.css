@@ -33,6 +33,7 @@ section {
 .font-header__title {
   font-family: "Merriweather", serif;
   font-size: 40px;
+  text-transform: capitalize;
 }
 
 .font-header__subtitle {
@@ -46,6 +47,7 @@ section {
   font-weight: 700;
   color: #222222;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .font-subtitle {
@@ -76,7 +78,7 @@ section {
 }
 
 .splash {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;

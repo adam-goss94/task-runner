@@ -28,6 +28,7 @@ section{
     padding: 96px 0;
 }
 
+
 .font{
     &-light{
         color: $colorLight;
@@ -45,7 +46,8 @@ section{
     &-header{
         &__title{
             font-family: $fontThree;
-            font-size: 40px;    
+            font-size: 40px;
+            text-transform: capitalize;    
         }
         &__subtitle{
             font-family: $fontOne;
@@ -59,6 +61,7 @@ section{
         font-weight: 700;
         color: $colorOne;
         font-size: 40px;
+        text-transform: uppercase;
     }
 
     &-subtitle{
@@ -95,7 +98,7 @@ section{
 }
 
 .splash{
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/header.jpg');
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/header.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;    
@@ -120,8 +123,7 @@ section{
                 background-color: $colorThree;
             }
         }
-    }  
-    
+    }      
         
     &-inner{
         margin: auto;
