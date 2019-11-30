@@ -83,20 +83,16 @@ section {
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .splash .box {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .splash .navigation {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
   padding-top: 50px;
 }
 
@@ -112,8 +108,7 @@ section {
 
 .splash-inner {
   margin: auto;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .services img {
@@ -123,4 +118,22 @@ section {
   padding: 20px;
   margin: 80px 0 30px 0;
 }
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.portfolio .portfolio-content {
+  margin-top: 80px;
+}
+
+.portfolio .portfolio-content .row .box {
+  margin-bottom: 50px;
+}
+
+.portfolio img {
+  object-fit: cover;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */

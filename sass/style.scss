@@ -6,6 +6,7 @@ $fontThree: 'Merriweather', serif;
 $colorOne: #222222;
 $colorTwo: #777777;
 $colorThree: #fed136;
+$colorFour: #f7f7f7;
 $colorLight: #fff;
 
 $transition: all .8s;
@@ -138,4 +139,20 @@ section{
     border-radius: 50%;
     padding: 20px;
     margin: 80px 0 30px 0;
+}
+
+.portfolio{
+    background-color: $colorFour;
+    
+    .portfolio-content{
+        margin-top: 80px;
+
+        .row .box{
+            margin-bottom: 50px;
+        }
+    }
+    img{
+        object-fit: cover;
+        overflow: hidden;
+    }
 }
