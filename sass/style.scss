@@ -74,20 +74,23 @@ section{
     &,
     &:link,
     &:visited{
-        display: inline-block;
-        min-width: 240px;
-        margin: 24px auto 0 auto;
-        padding: 16px;
-        border-radius: 5px;
+        display: inline-block;  
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         color: $colorLight;
         cursor: pointer;
-        transition: $transition;
+        transition: $transition;        
+    }
+
+    &-one{
+        min-width: 240px;
+        border-radius: 5px;
         background-position: 100% 0;
         background-size: 300%;
         background-color: $colorThree;
+        margin: 24px auto 0 auto;
+        padding: 16px; 
     }
 }
 
@@ -110,8 +113,12 @@ section{
 
         ul li{            
             display: inline-block;
-            padding: 0 10px;
             cursor: pointer;
+            padding: 8px 10px;
+
+            &:hover{
+                background-color: $colorThree;
+            }
         }
     }  
     
