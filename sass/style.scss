@@ -1,0 +1,22 @@
+/* Variables */
+$fontOne: 'Montserrat', sans-serif;
+$fontTwo: 'Roboto Slab', serif;;
+$fontThree: 'Merriweather', serif;
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+body{
+    line-height: 1.7;
+    font-family: $fontText;
+    font-size: 16px;
+    font-weight: 400;
+    color: $colorDark;
+}
+
+section{
+    padding: 96px 0;
+}
