@@ -71,4 +71,41 @@ section {
   background-size: 300%;
   background-color: #fed136;
 }
+
+.splash {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash .navigation {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-top: 50px;
+}
+
+.splash .navigation ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.splash .box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.splash .splash-inner {
+  margin: auto;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
 /*# sourceMappingURL=style.css.map */

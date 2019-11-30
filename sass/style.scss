@@ -91,3 +91,33 @@ section{
     }
 }
 
+.splash{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/header.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;    
+    min-height: 700px;
+    display: flex;
+
+    .navigation{
+        justify-content: space-between;
+        padding-top: 50px;
+
+        ul li{            
+            display: inline-block;
+            padding: 0 10px;
+        }
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .splash{
+        
+        &-inner{
+            margin: auto;
+            flex-direction: column;
+            align-self: center;
+        }
+    }
+}
