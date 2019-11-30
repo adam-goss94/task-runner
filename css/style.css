@@ -83,16 +83,20 @@ section {
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .splash .box {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .splash .navigation {
-  justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   padding-top: 50px;
 }
 
@@ -108,7 +112,8 @@ section {
 
 .splash-inner {
   margin: auto;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .services img {
@@ -132,8 +137,8 @@ section {
 }
 
 .portfolio img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
 }
-
 /*# sourceMappingURL=style.css.map */
