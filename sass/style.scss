@@ -8,6 +8,8 @@ $colorTwo: #777777;
 $colorThree: #fed136;
 $colorLight: #fff;
 
+$transition: all .8s;
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -66,3 +68,26 @@ section{
         font-size: 18px;
     }
 }
+
+
+.btn{
+    &,
+    &:link,
+    &:visited{
+        display: inline-block;
+        min-width: 240px;
+        margin: 24px auto 0 auto;
+        padding: 16px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $colorLight;
+        cursor: pointer;
+        transition: $transition;
+        background-position: 100% 0;
+        background-size: 300%;
+        background-color: $colorThree;
+    }
+}
+
