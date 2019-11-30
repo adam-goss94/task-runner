@@ -82,6 +82,13 @@ section {
   display: flex;
 }
 
+.splash .box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
 .splash .navigation {
   -ms-flex-pack: justify;
       justify-content: space-between;
@@ -91,21 +98,12 @@ section {
 .splash .navigation ul li {
   display: inline-block;
   padding: 0 10px;
+  cursor: pointer;
 }
 
-.splash .box {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-}
-
-.splash .splash-inner {
+.splash-inner {
   margin: auto;
   -ms-flex-direction: column;
       flex-direction: column;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 /*# sourceMappingURL=style.css.map */
