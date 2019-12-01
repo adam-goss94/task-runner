@@ -156,3 +156,50 @@ section{
         overflow: hidden;
     }
 }
+
+.page-footer{ 
+    padding: 40px 0;
+    .box{
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+    }
+
+    ul {
+        padding: 10px;    
+        li {
+            display: inline-block;
+            font-size: 0; 
+            height: 60px;
+            width: 60px;
+            background-color: $colorOne;
+            border-radius: 50%;              
+        
+            a {                
+                color: $colorLight;
+                text-decoration: none;
+                position: relative;
+                width: 100%;
+                height: 100%;                
+                display: flex;
+            }
+            
+            i { 
+                margin: auto;
+                font-size: 30px; 
+            }
+            
+            &:hover {
+                background-color: $colorThree;  
+            }
+        }     
+    }
+}
+
+@media screen and (max-width: 991px){
+    .page-footer{
+        .icons{
+            order: -1;
+        }
+    }
+}
