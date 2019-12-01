@@ -1,195 +1,62 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-}
+*, *::before, *::after { box-sizing: border-box; margin: 0; }
 
-body {
-  line-height: 1.7;
-  font-family: "Roboto Slab", serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #777777;
-  text-align: center;
-}
+body { line-height: 1.7; font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; color: #777777; text-align: center; }
 
-section {
-  padding: 96px 0;
-}
+section { padding: 96px 0; }
 
-.font-light {
-  color: #fff;
-}
+.font-light { color: #fff; }
 
-.font-italic {
-  font-style: italic;
-}
+.font-italic { font-style: italic; }
 
-.font-nav {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-}
+.font-nav { font-family: "Montserrat", sans-serif; text-transform: uppercase; }
 
-.font-header__title {
-  font-family: "Merriweather", serif;
-  font-size: 40px;
-  text-transform: capitalize;
-}
+.font-header__title { font-family: "Merriweather", serif; font-size: 40px; text-transform: capitalize; }
 
-.font-header__subtitle {
-  font-family: "Montserrat", sans-serif;
-  font-size: 75px;
-  font-weight: 700;
-}
+.font-header__subtitle { font-family: "Montserrat", sans-serif; font-size: 75px; font-weight: 700; }
 
-.font-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #222222;
-  font-size: 40px;
-  text-transform: uppercase;
-}
+.font-title { font-family: "Montserrat", sans-serif; font-weight: 700; color: #222222; font-size: 40px; text-transform: uppercase; }
 
-.font-subtitle {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #222222;
-  font-size: 18px;
-}
+.font-subtitle { font-family: "Montserrat", sans-serif; font-weight: 700; color: #222222; font-size: 18px; }
 
-.btn, .btn:link, .btn:visited {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  cursor: pointer;
-  transition: all 0.8s;
-}
+.btn, .btn:link, .btn:visited { display: inline-block; text-align: center; text-decoration: none; text-transform: uppercase; color: #fff; cursor: pointer; transition: all 0.8s; }
 
-.btn-one {
-  min-width: 240px;
-  border-radius: 5px;
-  background-position: 100% 0;
-  background-size: 300%;
-  background-color: #fed136;
-  margin: 24px auto 0 auto;
-  padding: 16px;
-}
+.btn-one { min-width: 240px; border-radius: 5px; background-position: 100% 0; background-size: 300%; background-color: #fed136; margin: 24px auto 0 auto; padding: 16px; }
 
-.splash {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px;
-  display: -ms-flexbox;
-  display: flex;
-}
+.splash { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header.jpg"); background-position: center center; background-size: cover; background-attachment: fixed; min-height: 700px; display: -ms-flexbox; display: flex; }
 
-.splash .box {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-}
+.splash .box { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
 
-.splash .navigation {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  padding-top: 50px;
-}
+.splash .navigation { -ms-flex-pack: justify; justify-content: space-between; padding-top: 50px; }
 
-.splash .navigation ul li {
-  display: inline-block;
-  cursor: pointer;
-  padding: 8px 10px;
-}
+.splash .navigation ul li { display: inline-block; cursor: pointer; padding: 8px 10px; }
 
-.splash .navigation ul li:hover {
-  background-color: #fed136;
-}
+.splash .navigation ul li:hover { background-color: #fed136; }
 
-.splash-inner {
-  margin: auto;
-  -ms-flex-direction: column;
-      flex-direction: column;
-}
+.splash-inner { margin: auto; -ms-flex-direction: column; flex-direction: column; }
 
-.services img {
-  display: inline-block;
-  border: 2px solid #fed136;
-  border-radius: 50%;
-  padding: 20px;
-  margin: 80px 0 30px 0;
-}
+.services img { display: inline-block; border: 2px solid #fed136; border-radius: 50%; padding: 20px; margin: 80px 0 30px 0; }
 
-.portfolio {
-  background-color: #f7f7f7;
-}
+.portfolio { background-color: #f7f7f7; }
 
-.portfolio .portfolio-content {
-  margin-top: 80px;
-}
+.portfolio .portfolio-content { margin-top: 80px; }
 
-.portfolio .portfolio-content .row .box {
-  margin-bottom: 50px;
-}
+.portfolio .portfolio-content .row .box { margin-bottom: 50px; }
 
-.portfolio img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow: hidden;
-}
+.portfolio img { -o-object-fit: cover; object-fit: cover; overflow: hidden; }
 
-.page-footer {
-  padding: 40px 0;
-}
+.page-footer { padding: 40px 0; }
 
-.page-footer .box {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-}
+.page-footer .box { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.page-footer ul {
-  padding: 10px;
-}
+.page-footer ul { padding: 10px; }
 
-.page-footer ul li {
-  display: inline-block;
-  font-size: 0;
-  height: 60px;
-  width: 60px;
-  background-color: #222222;
-  border-radius: 50%;
-}
+.page-footer ul li { display: inline-block; font-size: 0; height: 60px; width: 60px; background-color: #222222; border-radius: 50%; }
 
-.page-footer ul li a {
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: -ms-flexbox;
-  display: flex;
-}
+.page-footer ul li a { color: #fff; text-decoration: none; position: relative; width: 100%; height: 100%; display: -ms-flexbox; display: flex; }
 
-.page-footer ul li i {
-  margin: auto;
-  font-size: 30px;
-}
+.page-footer ul li i { margin: auto; font-size: 30px; }
 
-.page-footer ul li:hover {
-  background-color: #fed136;
-}
+.page-footer ul li:hover { background-color: #fed136; }
 
-@media screen and (max-width: 991px) {
-  .page-footer .icons {
-    -ms-flex-order: -1;
-        order: -1;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 991px) { section { padding: 48px 0; }
+  .page-footer .icons { -ms-flex-order: -1; order: -1; } }
